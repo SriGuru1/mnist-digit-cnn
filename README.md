@@ -34,4 +34,10 @@ This project is relevant to:
 
 ## 📂 Sample Output
 Model correctly classifies images like:
+[7] → Predicted: 7
+[3] → Predicted: 3
+[1] → Predicted: 1
+
+This shows that the CNN correctly classifies handwritten digits from the MNIST dataset.
+
 
