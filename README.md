@@ -1,28 +1,37 @@
 # MNIST Digit Classifier using CNN
 
-## 📌 Project Overview
-This project uses a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset with over 98% accuracy.
+This project uses a Convolutional Neural Network (CNN) built with Keras and TensorFlow to classify handwritten digits from the MNIST dataset.
 
-## ⚙️ Technologies Used
+## 🔍 Project Objective
+Build an image classifier that can recognize digits (0–9) with high accuracy using deep learning.
+
+## 🧠 Technologies Used
 - Python
-- TensorFlow & Keras
-- Google Colab
+- TensorFlow / Keras
+- MNIST Dataset
 
-## 🚀 How It Works
-1. Loads MNIST dataset from TensorFlow
-2. Normalizes input images
-3. Builds a CNN with 2 Conv layers + Dense layers
-4. Trains and evaluates the model
+## 📊 Model Architecture
+- Input Layer (28x28 grayscale images)
+- 2 Convolutional Layers with MaxPooling
+- Dense Layers with Dropout for regularization
+- Softmax Output Layer
 
-## 📊 Results
-- Achieved test accuracy: ~98%
-- Model can predict handwritten digit images with high accuracy
+## 🚀 Accuracy Achieved
+Achieved > 98% accuracy on test dataset.
 
-## 📂 Files
-- `mnist_digit_classifier.ipynb`: Colab notebook with full code and output
+## 📁 How to Run
+1. Clone this repo
+2. Run `mnist_cnn.ipynb` in Jupyter or Google Colab
 
-## 👤 Author
-Sri Guru H G
+## 📎 Dataset
+- MNIST digits dataset, loaded using `keras.datasets.mnist`
 
-## 🔗 License
-This project is open source and free to use.
+## 📌 Applications
+This project is relevant to:
+- Image Classification
+- Edge-AI deployment
+- AI/ML-Driven Computer Vision
+
+## 📂 Sample Output
+Model correctly classifies images like:
+
