@@ -1,43 +1,38 @@
-# MNIST Digit Classifier using CNN
+# 🔢 MNIST Digit Classifier using CNN
 
-This project uses a Convolutional Neural Network (CNN) built with Keras and TensorFlow to classify handwritten digits from the MNIST dataset.
+This project implements a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset. It serves as a foundation-level demonstration of how deep learning can be used for image classification.
 
-## 🔍 Project Objective
-Build an image classifier that can recognize digits (0–9) with high accuracy using deep learning.
+## 📦 Requirements
 
-## 🧠 Technologies Used
-- Python
+- Python 3.x
 - TensorFlow / Keras
-- MNIST Dataset
+- NumPy
+- Matplotlib
 
-## 📊 Model Architecture
-- Input Layer (28x28 grayscale images)
-- 2 Convolutional Layers with MaxPooling
-- Dense Layers with Dropout for regularization
-- Softmax Output Layer
+## 🚀 How to Run
 
-## 🚀 Accuracy Achieved
-Achieved > 98% accuracy on test dataset.
+1. Open the Jupyter/Colab notebook.
+2. Install the required packages (usually pre-installed in Colab).
+3. Run all cells to train and test the CNN model.
 
-## 📁 How to Run
-1. Clone this repo
-2. Run `mnist_cnn.ipynb` in Jupyter or Google Colab
+## 🎯 Model Summary
 
-## 📎 Dataset
-- MNIST digits dataset, loaded using `keras.datasets.mnist`
+- Input: 28x28 grayscale images
+- Conv2D + MaxPooling layers
+- Fully connected dense layers
+- Output: 10-class softmax classifier (digits 0-9)
 
-## 📌 Applications
-This project is relevant to:
-- Image Classification
-- Edge-AI deployment
-- AI/ML-Driven Computer Vision
+## 🧪 Accuracy
 
-## 📂 Sample Output
-Model correctly classifies images like:
-[7] → Predicted: 7
-[3] → Predicted: 3
-[1] → Predicted: 1
+Achieves **~99% accuracy** on the MNIST test set after several epochs of training.
 
-This shows that the CNN correctly classifies handwritten digits from the MNIST dataset.
+## 📚 Domain Relevance
 
+This project is directly related to the **Machine Learning & Deep Learning** domain and can be extended further for:
+- AI-based visual recognition systems
+- Intelligent traffic/image management
+- Networked edge AI applications
 
+## 📁 Dataset
+
+- Uses the standard [MNIST dataset](http://yann.lecun.com/exdb/mnist/) available via Keras datasets.
